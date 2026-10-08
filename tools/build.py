@@ -257,7 +257,7 @@ i.addEventListener('input',go);i.max=new Date().toISOString().slice(0,10);
 
 # Hand-written pages: (path, translation pair, title, description, extra JSON-LD)
 APP_LD = {"@context": "https://schema.org", "@type": "MobileApplication", "name": "Μπουμπούκι",
-          "alternateName": ["Boumpouki", "Μπουμπούκι: Εγκυμοσύνη"], "operatingSystem": "iOS 17 ή νεότερο",
+          "alternateName": ["Boumpouki", "Εγκυμοσύνη & Μωρό: Μπουμπούκι"], "operatingSystem": "iOS 17 ή νεότερο",
           "applicationCategory": "HealthApplication", "inLanguage": "el", "url": BASE,
           "image": BASE + "icon.png", "screenshot": [BASE + f"img/{n}.jpg" for n in ("01-today", "02-week", "03-checkups")],
           "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "installUrl": APP_URL, "sameAs": [APP_URL],
